@@ -5,14 +5,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Departamentos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
 </head>
 <body>
-    <h2>Departamentos</h2>
 
-    <a href="DepartamentoServlet?accion=nuevo">+ Nuevo</a>
-    <br><br>
+<div class="container mt-5">
 
-    <table border="1" cellpadding="6">
+    <h2 class="mb-4">Gestión de Departamentos</h2>
+
+    <a href="DepartamentoServlet?accion=nuevo" class="btn btn-sistema mb-3">
+        Nuevo Departamento
+    </a>
+
+    <table class="table table-bordered table-striped table-sistema">
         <thead>
             <tr>
                 <th>ID</th>
@@ -28,16 +35,18 @@
                     <td>${d.nombreDepartamento}</td>
                     <td>${d.descripcionDepartamento}</td>
                     <td>
-                        <a href="DepartamentoServlet?accion=editar&id=${d.idDepartamento}">Editar</a> |
-                        <a href="DepartamentoServlet?accion=eliminar&id=${d.idDepartamento}"
-                           onclick="return confirm('¿Eliminar este departamento?');">Eliminar</a>
+                        <a href="DepartamentoServlet?accion=editar&id=${d.idDepartamento}" class="btn btn-warning btn-sm">Editar</a>
+                        <a href="DepartamentoServlet?accion=eliminar&id=${d.idDepartamento}" class="btn btn-danger btn-sm"
+                           onclick="return confirm('¿Desea eliminar este departamento?')">Eliminar</a>
                     </td>
                 </tr>
             </c:forEach>
         </tbody>
     </table>
 
-    <br>
-    <a href="index.jsp">Volver</a>
+    <a href="index.jsp" class="btn btn-volver">Volver al inicio</a>
+
+</div>
+
 </body>
 </html>

@@ -1,0 +1,53 @@
+/* Fondo general de la página */
+body{
+    background-color: white;
+}
+
+/* Header del sistema */
+.header-sistema{
+    background-color:#244F73;
+    color:white;
+}
+
+/* Botones del sistema */
+.btn-sistema{
+    background-color:#244F73;
+    color:white;
+    border:none;
+}
+
+/* Hover del botón */
+.btn-sistema:hover{
+    background-color:#1b3f5c;
+    color:white;
+}
+
+/* Bordes de las tarjetas */
+.card-sistema{
+    border:1px solid #0E2D45;
+}
+
+/* Footer */
+.footer-sistema{
+    background-color:#f8f9fa;
+}
+
+.table-sistema thead{
+    background-color:#244F73;
+    color:white;
+}
+
+/* Hover en filas de tabla */
+.table-sistema tbody tr:hover{
+    background-color:white;
+}
+
+.btn-volver{
+    background-color:#244F73;
+    color:white;
+}
+
+.btn-volver:hover{
+    background-color:#244F73;
+    color:white;
+}
