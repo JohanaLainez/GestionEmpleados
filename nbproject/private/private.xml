@@ -3,16 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/johan/OneDrive/Documentos/NetBeansProjects/GestionEmpleados/web/views/cargos/list.jsp</file>
-            <file>file:/C:/Users/johan/OneDrive/Documentos/NetBeansProjects/GestionEmpleados/src/java/controllers/CargoServlet.java</file>
-            <file>file:/C:/Users/johan/OneDrive/Documentos/NetBeansProjects/GestionEmpleados/src/java/dao/CargoDAO.java</file>
-            <file>file:/C:/Users/johan/OneDrive/Documentos/NetBeansProjects/GestionEmpleados/src/java/models/Cargo.java</file>
-            <file>file:/C:/Users/johan/OneDrive/Documentos/NetBeansProjects/GestionEmpleados/web/views/cargos/form.jsp</file>
-            <file>file:/C:/Users/johan/OneDrive/Documentos/NetBeansProjects/GestionEmpleados/web/views/departamento/form.jsp</file>
-            <file>file:/C:/Users/johan/OneDrive/Documentos/NetBeansProjects/GestionEmpleados/web/views/departamento/list.jsp</file>
-            <file>file:/C:/Users/johan/OneDrive/Documentos/NetBeansProjects/GestionEmpleados/web/css/style.css</file>
-            <file>file:/C:/Users/johan/OneDrive/Documentos/NetBeansProjects/GestionEmpleados/src/java/controllers/DepartamentoServlet.java</file>
-            <file>file:/C:/Users/johan/OneDrive/Documentos/NetBeansProjects/GestionEmpleados/src/java/models/Departamento.java</file>
+            <file>file:/C:/Users/Henry%20Peña/Desktop/Gestion/GestionEmpleados/src/java/models/TipoContratacion.java</file>
+            <file>file:/C:/Users/Henry%20Peña/Desktop/Gestion/GestionEmpleados/src/java/controllers/TipoContratacionServlet.java</file>
+            <file>file:/C:/Users/Henry%20Peña/Desktop/Gestion/GestionEmpleados/web/views/tipoContratacion/list.jsp</file>
+            <file>file:/C:/Users/Henry%20Peña/Desktop/Gestion/GestionEmpleados/web/views/tipoContratacion/form.jsp</file>
+            <file>file:/C:/Users/Henry%20Peña/Desktop/Gestion/GestionEmpleados/src/java/models/Contratacion.java</file>
+            <file>file:/C:/Users/Henry%20Peña/Desktop/Gestion/GestionEmpleados/src/java/dao/ContratacionDAO.java</file>
+            <file>file:/C:/Users/Henry%20Peña/Desktop/Gestion/GestionEmpleados/src/java/controllers/ContratacionServlet.java</file>
+            <file>file:/C:/Users/Henry%20Peña/Desktop/Gestion/GestionEmpleados/web/views/contratacion/list.jsp</file>
+            <file>file:/C:/Users/Henry%20Peña/Desktop/Gestion/GestionEmpleados/web/views/contratacion/form.jsp</file>
+            <file>file:/C:/Users/Henry%20Peña/Desktop/Gestion/GestionEmpleados/src/java/utils/DBConnection.java</file>
+            <file>file:/C:/Users/Henry%20Peña/Desktop/Gestion/GestionEmpleados/src/java/dao/TipoContratacionDAO.java</file>
         </group>
     </open-files>
 </project-private>
